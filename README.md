@@ -1,4 +1,4 @@
-# alphasense
+# pyopc
 
 This module provides a Python interface to the Alphasense OPC-N2.
 
