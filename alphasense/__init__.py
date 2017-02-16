@@ -201,6 +201,8 @@ class Alphasense(object):
         return struct.unpack('<3f', data)
 
 
+OPCN2 = Alphasense
+
 if __name__ == '__main__':
     if len(sys.argv) != 2:
         print(('Usage: {} device-name'.format(sys.argv[0])))
