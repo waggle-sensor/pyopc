@@ -6,12 +6,12 @@ This module provides a Python interface to the Alphasense OPC-N2.
 
 ### Python 3
 ```
-pip3 install git+https://github.com/waggle-sensor/alphasense
+pip3 install git+https://github.com/waggle-sensor/pyopc
 ```
 
 ### Python 2
 ```
-pip install git+https://github.com/waggle-sensor/alphasense
+pip install git+https://github.com/waggle-sensor/pyopc
 ```
 
 This will automatically fetch and install the module along with all of its
