@@ -35,3 +35,6 @@ class USBISS(object):
             raise RuntimeError('USB-ISS: Transmission Error')
 
         return response[1:]
+
+    def __exit__(self):
+        self.close()

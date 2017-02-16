@@ -200,6 +200,9 @@ class Alphasense(object):
         data = self.transfer([0] * 12, delay=0.001)
         return struct.unpack('<3f', data)
 
+    def __exit__(self):
+        self.close()
+
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
